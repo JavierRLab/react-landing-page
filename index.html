@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Home Page</title>
+</head>
+<body>
+  <header id="header">
+    <img src="img/fcc_primary_large.svg" alt="freeCodeCamp logo" id="header-img">
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#header" class="nav-link">Header</a></li>
+        <li><a href="#main" class="nav-link">Main</a></li>
+        <li><a href="#email" class="nav-link">Email</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+    <div class="video-container">
+      <iframe width="1264" height="711" src="https://www.youtube.com/embed/FXpIoQ_rT_c" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        id="video" allowfullscreen></iframe>
+    </div>
+    <div class="form-container">
+      <h2>Subscribe to the News</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input type="email" name="email" id="email" placeholder="email@example.com" pattern="^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}
+          [a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$">
+        <input type="submit" value="Submit" id="submit">
+      </form>
+    </div>
+  </main>
+</body>
+</html>
