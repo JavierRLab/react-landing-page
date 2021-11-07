@@ -14,10 +14,10 @@
 
 ## Libraries:
 
-| Name | Reason Installed |
-| ---- | ---------------- |
-|      |                  |
-|      |                  |
+| Name | Reason Installed                            |
+| ---- | ------------------------------------------- |
+| sass | to allow use of variables, functions in CSS |
+|      |                                             |
 
 ## Sources:
 

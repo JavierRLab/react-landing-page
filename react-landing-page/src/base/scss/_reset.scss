@@ -1,0 +1,42 @@
+// Reset
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+//media-query for fonts
+html {
+  font-size: 50%;
+  @include landscape {
+    font-size: 53.5%;
+  }
+  @include tablet {
+    font-size: 57.5%;
+  }
+  @include desktop {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+  font-family: Lato;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
