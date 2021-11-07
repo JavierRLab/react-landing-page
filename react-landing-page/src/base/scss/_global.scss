@@ -5,6 +5,13 @@ body {
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 1.5rem;
+  background-color: $gray75;
+  color: $gray15;
+}
+
+.important {
+  font-family: "SaxMono";
+  font-weight: bold;
 }

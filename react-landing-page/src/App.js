@@ -1,7 +1,11 @@
+import React from "react";
+
+import { Header } from "./core/layouts/Header/Header";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <Header />
     </div>
   );
 }
