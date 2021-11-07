@@ -4,5 +4,9 @@
 @import "base/scss/reset";
 @import "base/scss/global";
 
+@import "core/components/VideoContainer/VideoContainer.scss";
+
 @import "core/layouts/Header/Header.scss";
 @import "core/layouts/Header/NavBar/NavBar.scss";
+
+@import "core/layouts/MainContent/MainContent.scss";
