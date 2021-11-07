@@ -3,14 +3,14 @@
 |       |                     |
 | ----- | ------------------- |
 | Name: | Javier Raez Labrado |
-| Date: | 2021-10-18          |
+| Date: | 2021-11-07          |
 
 ## Frameworks:
 
-| Name | Reason Installed |
-| ---- | ---------------- |
-|      |                  |
-|      |                  |
+| Name  | Reason Installed                                                                                                  |
+| ----- | ----------------------------------------------------------------------------------------------------------------- |
+| React | To show my improvement since first try, to apply Atomic Design because it allows better organization of the code. |
+|       |                                                                                                                   |
 
 ## Libraries:
 
