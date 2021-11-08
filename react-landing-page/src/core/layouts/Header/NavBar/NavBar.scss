@@ -14,9 +14,10 @@
   width: 100%;
   font-size: 1.2em;
   &:hover {
-    border: 0.4rem solid $gray80;
+    border: 0.4rem solid $gray85;
+    border-bottom: none;
     border-radius: 1rem 0 0 0;
     color: $gray05;
-    background-color: $gray85;
+    background-color: $gray75;
   }
 }
