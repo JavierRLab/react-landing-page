@@ -1,0 +1,32 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  color: $gray05;
+  background-color: $gray85;
+  border-radius: 0.5rem;
+
+  * {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    text-align: center;
+    @include desktop {
+      text-align: left;
+    }
+  }
+
+  @include landscape {
+    padding: 0.5rem 10rem 0.5em;
+  }
+  @include desktop {
+    margin: 0 0 0 2rem;
+    width: 50%;
+  }
+}

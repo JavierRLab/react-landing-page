@@ -4,4 +4,8 @@
   @include landscape {
     padding: 2rem 10rem 0.5em;
   }
+
+  @include desktop {
+    display: flex;
+  }
 }

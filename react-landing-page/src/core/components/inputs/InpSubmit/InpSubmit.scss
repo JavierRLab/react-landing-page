@@ -1,0 +1,11 @@
+input[type="submit"] {
+  height: 4rem;
+  font-family: "SaxMono";
+  font-weight: bold;
+  font-size: 1.75rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 0.2rem solid $gray90;
+  color: 90;
+  background-color: $yellow;
+}

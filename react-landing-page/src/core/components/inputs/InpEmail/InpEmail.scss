@@ -1,0 +1,25 @@
+input[type="email"] {
+  min-width: fit-content;
+  width: 100%;
+  height: 4rem;
+  padding-left: 1rem;
+  font-family: "SaxMono";
+  font-weight: bold;
+  font-size: 1.75rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 0.1rem solid $gray75;
+  color: $gray75;
+  background-color: $gray15;
+
+  &:focus {
+    color: $gray90;
+    background-color: $gray00;
+  }
+  &:invalid {
+    border: 0.4rem solid $purple;
+  }
+  &:valid {
+    border: 0.4rem solid $lightGreen;
+  }
+}

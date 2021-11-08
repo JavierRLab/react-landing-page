@@ -5,8 +5,11 @@
 @import "base/scss/global";
 
 @import "core/components/VideoContainer/VideoContainer.scss";
+@import "core/components/inputs/InpEmail/InpEmail.scss";
+@import "core/components/inputs/InpSubmit/InpSubmit.scss";
 
 @import "core/layouts/Header/Header.scss";
 @import "core/layouts/Header/NavBar/NavBar.scss";
 
 @import "core/layouts/MainContent/MainContent.scss";
+@import "core/layouts/MainContent/SubscribeForm/SubscribeForm.scss";
